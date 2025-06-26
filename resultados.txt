@@ -1,0 +1,2 @@
+Equipe A,3,Equipe B,2
+Equipe B,1,Equipe A,4
