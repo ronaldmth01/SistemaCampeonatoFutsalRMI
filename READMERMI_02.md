@@ -21,35 +21,31 @@ cd ~/semestre_2025.1/sistemas_distribuidos/SistemaCampeonatoFutsal
 Compile todos os arquivos Java para a pasta bin:
 
 bash
-Copiar
-Editar
 javac -d bin src/*.java
+
 2. Iniciar o RMI Registry
 Em um terminal novo, dentro do diretório bin, execute:
 
 bash
-Copiar
-Editar
 cd bin
 rmiregistry
+
 💡 Mantenha este terminal aberto enquanto o sistema estiver em execução.
 
 3. Iniciar o Servidor RMI
 Em outro terminal, dentro do diretório bin, execute:
 
 bash
-Copiar
-Editar
 cd bin
 java ServidorRMI
+
 4. Iniciar o Cliente RMI
 Em um terceiro terminal, também dentro do diretório bin, execute:
 
 bash
-Copiar
-Editar
 cd bin
 java ClienteRMI
+
 🔧 Solução de Problemas
 Porta 1099 em uso
 Se aparecer o erro Port already in use: 1099:
@@ -57,14 +53,10 @@ Se aparecer o erro Port already in use: 1099:
 Verifique os processos do rmiregistry em execução:
 
 bash
-Copiar
-Editar
 ps aux | grep rmiregistry
 Encerre o processo que está usando a porta (substitua PID pelo número do processo):
 
 bash
-Copiar
-Editar
 kill -9 PID
 Reinicie o rmiregistry.
 
