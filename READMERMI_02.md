@@ -75,9 +75,6 @@ java ServidorRMI	Inicia o servidor RMI
 java ClienteRMI	Inicia o cliente RMI
 
 📚 Estrutura de Arquivos
-python
-Copiar
-Editar
 SistemaCampeonatoFutsal/
 ├── bin/                     # Arquivos compilados (.class)
 ├── src/                     # Código fonte (.java)
